@@ -18,8 +18,8 @@ const server = http.createServer(function (req, res) {
 
 server.listen(port, function (error) {
   if (error) {
-    console.log("Something went wrong", error);
+    console.log("Something went wrong ", error);
   } else {
-    console.log("No error occured" + port);
+    console.log("No error occured " + port);
   }
 });
